@@ -1,0 +1,18 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$blue: #3397DB;
+
+.grid {
+  display: inline-block;
+  list-style: none;
+}
+.grid > li {
+  background-color: $blue;
+  color: white;
+  font-weight: bold;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
